@@ -70,7 +70,7 @@ class ProteinAnalyzer:
             json.dump(out_data, f, indent=4)
     
 if __name__ == '__main__':
-    test_file = 'example_100.fasta'
+    test_file = 'C:\\Users\\tsark\\Documents\\GitHub\\protein\\uniprotkb_accession_I6MZ87_2026_02_17.fasta'
 
     try:
         analyzer = ProteinAnalyzer(test_file)

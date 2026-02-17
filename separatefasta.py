@@ -1,6 +1,6 @@
 from Bio import SeqIO
 
-fasta_file = 'organism_9606.fasta'
+fasta_file = 'C:\\Users\\tsark\\Documents\\GitHub\\protein\\uniprotkb_accession_I6MZ87_2026_02_17.fasta'
 
 sizes_sequences = [100, 1000, 10000]
 
