@@ -111,7 +111,7 @@ class ProteinAnalyzerMultiprocess:
 
 
 if __name__ == '__main__':
-    test_file = 'example_1000.fasta'
+    test_file = 'C:\\Users\\tsark\\Documents\\GitHub\\protein\\uniprotkb_accession_I6MZ87_2026_02_17.fasta'
 
     analyzer_mp = ProteinAnalyzerMultiprocess(test_file)
     analyzer_mp.analyze()
