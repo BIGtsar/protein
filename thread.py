@@ -98,7 +98,7 @@ class ProteinAnalyzerThreaded:
 
 
 if __name__ == '__main__':
-    test_file = 'example_10000.fasta'
+    test_file = 'C:\\Users\\tsark\\Documents\\GitHub\\protein\\uniprotkb_accession_I6MZ87_2026_02_17.fasta'
 
     analyzer_th = ProteinAnalyzerThreaded(test_file, num_threads=4)
     analyzer_th.analyze()
